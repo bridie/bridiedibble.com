@@ -6,6 +6,8 @@
   padding: 10px;
   margin: 5px;
   font-weight: bold;
+  position: relative;
+  z-index: 999;
 
   @include media(800px) {
     font-size: 48px;
