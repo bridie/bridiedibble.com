@@ -1,0 +1,17 @@
+.c-hero-text {
+  background: $carnation;
+  color: $white;
+  font-size: 30px;
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+  font-weight: bold;
+
+  @include media(800px) {
+    font-size: 48px;
+  }
+
+  span {
+    color: $marzipan;
+  }
+}

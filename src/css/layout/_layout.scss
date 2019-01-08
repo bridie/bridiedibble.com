@@ -1,0 +1,12 @@
+.l-section {
+  width: calc(100vw - 40px);
+  height: calc(100vh - 40px);
+  padding: 20px;
+
+  &--intro {
+    background: $regent-street-blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
