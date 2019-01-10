@@ -13,6 +13,14 @@
     font-size: 48px;
   }
 
+  &--alt {
+    background: $cloud-burst;
+  }
+
+  &--sml {
+    font-size: 28px;
+  }
+
   span {
     color: $marzipan;
   }

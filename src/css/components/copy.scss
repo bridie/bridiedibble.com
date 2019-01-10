@@ -1,0 +1,36 @@
+.c-copy {
+  background: $white;
+  font-size: 18px;
+  color: $chambray;
+  padding: 2px 20px;
+  text-align: left;
+
+  @include media(800px) {
+    font-size: 28px;
+    padding: 2px 30px;
+  }
+
+  &--sml {
+    font-size: 18px;
+    padding: 2px 20px;
+  }
+
+  &--icon-box {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+
+    img {
+      max-width: 80px;
+      padding-right: 20px;
+    }
+  }
+
+  &--about {
+    margin-bottom: 20px;
+  }
+
+  &__important-word {
+    color: $carnation;
+  }
+}
