@@ -32,5 +32,9 @@
 
   &__important-word {
     color: $carnation;
+
+    a {
+      color: $carnation;
+    }
   }
 }
