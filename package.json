@@ -11,7 +11,8 @@
     "pixi-particles": "^3.1.0",
     "pixi.js": "^4.8.5",
     "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react-dom": "^16.7.0",
+    "react-scroll": "^1.7.10"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",

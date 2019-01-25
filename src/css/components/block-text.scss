@@ -15,6 +15,12 @@
 
   &--alt {
     background: $cloud-burst;
+
+    a:hover & {
+      background: $marzipan;
+      color: $carnation;
+      cursor: pointer;
+    }
   }
 
   &--sml {

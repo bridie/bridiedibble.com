@@ -4,7 +4,7 @@ import WorkGrid from './work-grid';
 class WorkSection extends Component {
   render() {
     return (
-      <div className="l-section l-section--work">
+      <div id="work-section" className="l-section l-section--work">
         <div className="l-heading">
           <h2 className="c-block-text">Work</h2>
         </div>
