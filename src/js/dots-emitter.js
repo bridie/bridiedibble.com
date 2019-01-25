@@ -7,12 +7,14 @@ class DotsEmitter {
     this.position = position;
     this.emitter = null;
 
+    const imgDir = './../../images/dots';
+
     this.dots = [
-      PIXI.Texture.fromImage('./../../images/chambray.png'),
-      PIXI.Texture.fromImage('./../../images/white.png'),
-      PIXI.Texture.fromImage('./../../images/carnation.png'),
-      PIXI.Texture.fromImage('./../../images/cloud-burst.png'),
-      PIXI.Texture.fromImage('./../../images/marzipan.png')
+      PIXI.Texture.fromImage(`${imgDir}/chambray.png`),
+      PIXI.Texture.fromImage(`${imgDir}/white.png`),
+      PIXI.Texture.fromImage(`${imgDir}/carnation.png`),
+      PIXI.Texture.fromImage(`${imgDir}/cloud-burst.png`),
+      PIXI.Texture.fromImage(`${imgDir}/marzipan.png`)
     ];
 
     this.config = {
