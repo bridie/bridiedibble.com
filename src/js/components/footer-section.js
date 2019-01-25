@@ -6,20 +6,20 @@ class FooterSection extends Component {
       <div className="l-section l-section--footer">
         <div className="l-section__content">
 
-          <div className="contact">
-            <a className="contact__link" href="mailto:bridie.dibble@gmail.com">
+          <div className="c-contact">
+            <a className="c-contact__link" href="mailto:bridie.dibble@gmail.com">
               Email
             </a>
 
-            <span className="contact__div">/</span>
+            <span className="c-contact__div">/</span>
 
-            <a className="contact__link" href="https://www.linkedin.com/in/bridie-dibble/">
+            <a className="c-contact__link" href="https://www.linkedin.com/in/bridie-dibble/">
               LinkedIn
             </a>
 
-            <span className="contact__div">/</span>
+            <span className="c-contact__div">/</span>
 
-            <a className="contact__link" href="https://github.com/bridie">
+            <a className="c-contact__link" href="https://github.com/bridie">
               Github
             </a>
           </div>

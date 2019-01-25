@@ -4,7 +4,7 @@ import WorkItem from './work-item';
 class WorkGrid extends Component {
   render() {
     return (
-      <div className="work-grid">
+      <div className="c-work-grid">
         <WorkItem
           href='https://shaunthesheep.com'
           label="Shaun the Sheep"
