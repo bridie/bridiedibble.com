@@ -19,6 +19,11 @@
     background: $regent-street-blue;
   }
 
+  &--footer {
+    background: $carnation;
+    overflow: auto;
+  }
+
   &__content {
     max-width: 1200px;
     margin: 0 auto;
