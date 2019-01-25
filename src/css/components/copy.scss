@@ -4,10 +4,41 @@
   color: $chambray;
   padding: 2px 20px;
   text-align: left;
+  position: relative;
 
   @include media(800px) {
     font-size: 24px;
     padding: 2px 26px;
+  }
+
+  &__overlay-text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    opacity: 0;
+  }
+
+  & > .c-copy__overlay {
+    transition: all .3s ease;
+    opacity: 0;
+  }
+
+  &:hover > .c-copy__overlay {
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    width:100%;
+    height:100%;
+    left: 0;
+    background-color: $carnation;
+    z-index: 99999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .c-copy__overlay-text {
+      opacity: 1;
+    }
   }
 
   a {
