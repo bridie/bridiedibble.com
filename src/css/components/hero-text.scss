@@ -21,6 +21,12 @@
     font-size: 28px;
   }
 
+  &--tiny {
+    font-size: 12px;
+    font-weight: normal;
+    padding: 6px;
+  }
+
   span {
     color: $marzipan;
   }

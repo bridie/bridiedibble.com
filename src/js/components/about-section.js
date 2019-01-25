@@ -5,7 +5,7 @@ class AboutSection extends Component {
     return (
       <div className="l-section l-section--about">
         <div className="l-heading">
-          <h2 class="c-hero-text c-hero-text--alt">About</h2>
+          <h2 className="c-hero-text c-hero-text--alt">About</h2>
         </div>
 
         <div className="l-section__content">
@@ -18,7 +18,7 @@ class AboutSection extends Component {
           <div className="l-columns">
             <div className="l-columns__column l-columns__column--left">
               <div className="l-heading">
-                <h3 class="c-hero-text c-hero-text--sml">Frontend</h3>
+                <h3 className="c-hero-text c-hero-text--sml">Frontend</h3>
               </div>
 
               <div className="c-copy c-copy--sml c-copy--icon-box">
@@ -54,7 +54,7 @@ class AboutSection extends Component {
 
             <div className="l-columns__column l-columns__column--right">
               <div className="l-heading">
-                <h3 class="c-hero-text c-hero-text--sml">Backend</h3>
+                <h3 className="c-hero-text c-hero-text--sml">Backend</h3>
               </div>
 
               <div className="c-copy c-copy--sml c-copy--icon-box">

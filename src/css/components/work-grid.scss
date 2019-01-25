@@ -1,0 +1,54 @@
+.work-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+
+  @include media(600px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @include media(1000px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  &__item {
+    margin: 10px;
+    position: relative;
+    border: 6px solid $white;
+
+    & > .work-grid__overlay {
+      transition: all .3s ease;
+      opacity: 0;
+    }
+
+    &:hover > .work-grid__overlay {
+      opacity: 1;
+      position: absolute;
+      top: 0;
+      width:100%;
+      height:100%;
+      left: 0;
+      background-color: $carnation;
+      z-index: 99999;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  &__label {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+  }
+
+  &__img {
+    display: block;
+    width: 100%;
+  }
+
+  &__overlay-text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+  }
+}
