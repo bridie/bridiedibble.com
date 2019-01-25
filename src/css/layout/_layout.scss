@@ -17,11 +17,15 @@
 
   &--work {
     background: $regent-street-blue;
+    padding-bottom: 100px;
   }
 
   &--footer {
     background: $carnation;
     overflow: auto;
+    position: fixed;
+    bottom: 0;
+    z-index: 999999;
   }
 
   &__content {
