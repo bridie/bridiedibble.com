@@ -16,7 +16,7 @@
   &--alt {
     background: $cloud-burst;
 
-    a:hover & {
+    a:hover > & {
       background: $marzipan;
       color: $carnation;
       cursor: pointer;
