@@ -6,7 +6,7 @@ class WorkSection extends Component {
     return (
       <div className="l-section l-section--work">
         <div className="l-heading">
-          <h2 className="c-hero-text">Work</h2>
+          <h2 className="c-block-text">Work</h2>
         </div>
 
         <div className="l-section__content">

@@ -9,7 +9,7 @@ class WorkItem extends Component {
         </div>
 
         <div className="work-grid__label">
-          <div className="c-hero-text c-hero-text--tiny c-hero-text--alt">{this.props.label}</div>
+          <div className="c-block-text c-block-text--tiny c-block-text--alt">{this.props.label}</div>
         </div>
 
         <img className="work-grid__img" src={`./../images/work/${this.props.img}`} />

@@ -8,9 +8,9 @@ class IntroSection extends Component {
       <div className="l-section l-section--intro">
       <Dots />
       <div>
-        <div className="c-hero-text">Hello. I'm <span>Bridie Dibble</span></div>
+        <div className="c-block-text">Hello. I'm <span>Bridie Dibble</span></div>
         <br />
-        <div className="c-hero-text">I'm a <span>full-stack web developer</span></div>
+        <div className="c-block-text">I'm a <span>full-stack web developer</span></div>
       </div>
       </div>
     );
