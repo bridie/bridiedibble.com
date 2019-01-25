@@ -10,6 +10,14 @@
     padding: 2px 26px;
   }
 
+  a {
+    text-decoration: none;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+
   &--sml {
     font-size: 18px;
     padding: 2px 20px;
