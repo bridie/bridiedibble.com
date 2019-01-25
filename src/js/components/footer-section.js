@@ -13,13 +13,13 @@ class FooterSection extends Component {
 
             <span className="c-contact__div">/</span>
 
-            <a className="c-contact__link" href="https://www.linkedin.com/in/bridie-dibble/">
+            <a className="c-contact__link" href="https://www.linkedin.com/in/bridie-dibble/" target="_blank">
               LinkedIn
             </a>
 
             <span className="c-contact__div">/</span>
 
-            <a className="c-contact__link" href="https://github.com/bridie">
+            <a className="c-contact__link" href="https://github.com/bridie" target="_blank">
               Github
             </a>
           </div>
