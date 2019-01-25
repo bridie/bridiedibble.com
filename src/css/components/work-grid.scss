@@ -1,6 +1,8 @@
 .c-work-grid {
   display: grid;
   grid-template-columns: 1fr;
+  margin-top: -10px;
+  margin-bottom: -10px;
 
   @include media(600px) {
     grid-template-columns: 1fr 1fr;
