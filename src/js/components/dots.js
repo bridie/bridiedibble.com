@@ -24,7 +24,7 @@ class Dots extends Component {
 
   pixiInit() {
     this.pixiApp = new PIXI.Application({
-      width: window.innerWidth,
+      width: document.body.clientWidth,
       height: window.innerHeight,
       transparent: true,
       antialias: true,
@@ -39,16 +39,16 @@ class Dots extends Component {
 
   onResize() {
     this.spawnPos = this.generateSpawnPos();
-    this.pixiApp.renderer.resize(window.innerWidth, window.innerHeight);
+    this.pixiApp.renderer.resize(document.body.clientWidth, window.innerHeight);
     this.emitters.forEach((emitter, i) => emitter.emitter.updateSpawnPos(this.spawnPos[i][0], this.spawnPos[i][1]));
   }
 
   generateSpawnPos() {
     return [
-      [window.innerWidth - 300, window.innerHeight - 300],
+      [document.body.clientWidth - 300, window.innerHeight - 300],
       [300, window.innerHeight - 300],
       [300, 300],
-      [window.innerWidth - 300, 300]
+      [document.body.clientWidth - 300, 300]
     ];
   }
 }
